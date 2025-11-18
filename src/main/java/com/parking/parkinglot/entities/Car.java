@@ -1,6 +1,5 @@
-package com.parking.parkinglot;
+package com.parking.parkinglot.entities;
 
-import com.parking.parkinglot.entities.User;
 import jakarta.persistence.*;
 
 @Entity

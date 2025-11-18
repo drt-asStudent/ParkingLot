@@ -1,6 +1,5 @@
 package com.parking.parkinglot.entities;
 
-import com.parking.parkinglot.Car;
 import jakarta.persistence.*;
 
 import java.util.ArrayList;
