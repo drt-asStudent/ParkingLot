@@ -32,5 +32,5 @@ public class CarsBean {
 
     public List<CarDto> copyCarsToDTo(List<Car> cars) {
         return cars.stream().map(car -> new CarDto(car.getId(), car.getLicensePlate(), car.getParkingSpot(), car.getOwner().getUsername())).toList();
-    }
+    };
 }
